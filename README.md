@@ -1,4 +1,4 @@
-* README *
+#H1 splunk enterprise vagrant/ansible based lab
 
 ```author: bryan oakley-wiggins [brybinary]``` `some initial vagrant kick-starter inspiration from` http://blog.element84.com/dry-up-your-vagrant-files.html
 
