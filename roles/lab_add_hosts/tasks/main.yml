@@ -1,0 +1,13 @@
+---
+
+- name: update local hosts (pre-dns)
+  blockinfile:
+    dest: /etc/hosts
+    block: | 
+        10.91.0.111 splunklabnode1
+        10.91.0.112 splunklabnode2
+        10.91.0.113 splunklabnode3
+        10.91.0.114 splunklabnode4
+        10.91.0.115 splunklabnode5
+        10.91.0.116 splunklabnode6
+        10.91.0.117 splunklabnode7
