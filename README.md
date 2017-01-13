@@ -1,8 +1,6 @@
 * README *
 
-*** CONTAINS DUMMY DATA BUT PLEASE ENSURE NOTHING THAT SHOWS INTERNAL REFERENCES/SCHEMA IS PUBLISHED EXTERNALLY***
-
-author: bryan oakley-wiggins [brybinary] (some initial vagrant kick-starter inspiration from interwebs!)
+author: bryan oakley-wiggins [brybinary] some initial vagrant kick-starter inspiration from http://blog.element84.com/dry-up-your-vagrant-files.html
 GitHub link (public repo where I shall also be adding public friendly changes): https://github.com/MONIGIT/splunk_lab
 
 <!-- [credentials +]: -->
