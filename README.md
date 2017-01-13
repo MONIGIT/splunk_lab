@@ -1,15 +1,16 @@
-#H1 splunk enterprise vagrant/ansible based lab
+# splunk enterprise vagrant/ansible based lab
 
 ```author: bryan oakley-wiggins [brybinary]``` `some initial vagrant kick-starter inspiration from` http://blog.element84.com/dry-up-your-vagrant-files.html
 
 `GitHub link (public repo where I shall also be adding public friendly changes):` https://github.com/MONIGIT/splunk_lab
 
 <!-- [credentials +]: -->
-```splunk user: admin
-splunk user password: 5Imples
-ansible-vault password: 5Imples (used to en|de/crypt vars)
-hostname: splunklabnode*
-ip: 10.91.0.#```
+```
+1. splunk user: admin
+2. splunk user password: 5Imples
+3. ansible-vault password: 5Imples (used to en|de/crypt vars)
+4. hostname: splunklabnode*
+5. ip: 10.91.0.#```
 
 This is the first basic version of a lab for a full stack clustered splunk enterprise 6.5.1 env. Currently it builds individual nodes (good for testing individual components) and later version will use single builds. Based on the following;
 
