@@ -55,6 +55,7 @@ splunk should install fine on an enforced selinux build but you may need to add 
 Thx, enjoy and keep sharing open source!
 brybinary
 
+```
 .
 ├── README.md
 ├── Vagrantfile
@@ -131,3 +132,4 @@ brybinary
 │   └── replace
 ├
 └── splunk-live-lab-dev-commit_v.01.yml
+```
