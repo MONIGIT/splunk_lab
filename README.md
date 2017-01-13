@@ -11,7 +11,7 @@
 4. hostname: splunklabnode*
 5. ip: 10.91.0.#
 
-This is the first basic version of a lab for a full stack clustered splunk enterprise 6.5.1 env. Currently it builds individual nodes (good for testing individual components) and later version will use single builds. Based on the following;
+This is the first basic version of a lab for a full stack clustered splunk enterprise 6.5.1 env. Currently it pulls the rpm and builds individual nodes each time (good for testing individual components) and later versions will include single builds (cached rom, packer etc).
 
 ### environment REQ's
 vagrant
