@@ -26,7 +26,7 @@ internet connectivity to pull down splunk 6.5.1 .rpm
 node count = 9 (this number is within the vagrant file variable and can be changed)
 
 ### starting up
-with all pre-req's in place, shell into the directory and `vagrant up` <- supply ansible-vault password for decrypting the relevant vars (you could decrypt and remove the vault requirement in the vagrntfile)
+with all pre-req's in place, shell into the directory and `vagrant up` <- supply ansible-vault password for decrypting the relevant vars (you could decrypt and remove the vault requirement in the vagrantfile)
 
 ### destroying
 vagrant destroy -f (or just destroy individual guests/groups)
