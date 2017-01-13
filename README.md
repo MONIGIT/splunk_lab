@@ -1,7 +1,8 @@
 * README *
 
 author: bryan oakley-wiggins [brybinary] some initial vagrant kick-starter inspiration from http://blog.element84.com/dry-up-your-vagrant-files.html
-GitHub link (public repo where I shall also be adding public friendly changes): https://github.com/MONIGIT/splunk_lab
+
+`GitHub link (public repo where I shall also be adding public friendly changes): https://github.com/MONIGIT/splunk_lab`
 
 <!-- [credentials +]: -->
 splunk user: admin
