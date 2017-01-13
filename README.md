@@ -37,19 +37,19 @@ splunk should install fine on an enforced selinux build but you may need to add 
 	e.g. semenage port -a -t http_port_t -p tcp 9997
 
 ### notes
-	It is sequential and ordered according to how splunk needs to be configured (roles include hard coded ip/hostname so be cautious if you change anywhere and update accordingly). 
+	*it is sequential and ordered according to how splunk needs to be configured (roles include hard coded ip/hostname so be cautious if you change anywhere and update accordingly). 
 
-	compute is minimal and you can add to change but I have found using a single cpu and 512 memory fine for testing.
+	*compute is minimal and you can add to change but I have found using a single cpu and 512 memory fine for testing.
 
-	ansible-vault is used for en|de/crypting the credentials.
+	*ansible-vault is used for en|de/crypting the credentials.
 
-	All vagrant configuration can be changed to suit but all splunk commands need to be static (thats the way splunk is configured) <- of course, names + ip schema can be changed to suit.
+	*all vagrant configuration can be changed to suit but all splunk commands need to be static (thats the way splunk is configured) <- of course, names + ip schema can be changed to suit.
 
-	The license used will be the trial 60 day (I had to remove my dev license as this is a personal license and I would be breaking it's conditions if I distributed it). the code to add your own license exists and can be uncommented.
+	*the license used will be the trial 60 day (I had to remove my dev license as this is a personal license and I would be breaking it's conditions if I distributed it). the code to add your own license exists and can be uncommented.
 
-	Further enhancements will be published, including containers, dynamic inventory, ldap endpoints, haproxy LB pools, multi-site, better grouping, improved validation/error condition checks/traps, LetsEncrypt certificates etc etc.
+	*further enhancements will be published, including containers, dynamic inventory, ldap endpoints, haproxy LB pools, multi-site, better grouping, improved validation/error condition checks/traps, LetsEncrypt certificates etc etc.
 
-	All comments, feedback and of course improvements very welcomed.
+	##### *all comments, feedback and of course improvements very welcomed.
 
 Thx, enjoy and keep sharing open source!
 brybinary
