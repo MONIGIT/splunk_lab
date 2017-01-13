@@ -13,7 +13,7 @@
 
 This is the first basic version of a lab for a full stack clustered splunk enterprise 6.5.1 env. Currently it builds individual nodes (good for testing individual components) and later version will use single builds. Based on the following;
 
-### <!-- [environment REQ's] -->
+### environment REQ's
 vagrant
 virtualbox (others to follow - vcenter, kvm etc)
 local ansible + ansible-vault (env used to build this lab is mac based)
