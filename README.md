@@ -5,11 +5,11 @@
 `GitHub link (public repo where I shall also be adding public friendly changes):` https://github.com/MONIGIT/splunk_lab
 
 <!-- [credentials +]: -->
-splunk user: admin
+```splunk user: admin
 splunk user password: 5Imples
 ansible-vault password: 5Imples (used to en|de/crypt vars)
 hostname: splunklabnode*
-ip: 10.91.0.#
+ip: 10.91.0.#```
 
 This is the first basic version of a lab for a full stack clustered splunk enterprise 6.5.1 env. Currently it builds individual nodes (good for testing individual components) and later version will use single builds. Based on the following;
 
