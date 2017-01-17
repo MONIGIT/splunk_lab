@@ -1,7 +1,8 @@
 # simple lab build of clustered splunk enterprise (6.5.1)
-# v.0.1
+# v.0.2
 # bryan oakley-wiggins (brybinary)
-# 9.12.16
+# original date 9.12.16
+# update 17.01.17 (fix private network issue for non vagrant 1.8.6)
 
 ########
 # env #
@@ -57,6 +58,9 @@ end
        bbin.vm.provider :virtualbox do |vb|
         vb.cpus = 1
        bbin.vm.network "private_network", ip: ip_from_num(i)
+       
+       # added the inline to resolve an issue with static ip private network not working correctly if not using vagrant version 1.8.6
+       bbin.vm.provision "shell", inline: "ifup eth1", run: "always"
        bbin.vm.network "forwarded_port", guest: 8000, host: 49100, auto_correct: true 
       end
 
