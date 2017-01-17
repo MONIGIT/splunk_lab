@@ -14,7 +14,7 @@
 This is the first basic version of a lab for a full stack clustered splunk enterprise 6.5.1 env. Currently it pulls the rpm and builds individual nodes each time (good for testing individual components) and later versions will include single builds (cached rom, packer etc).
 
 ### environment REQ's
-vagrant
+vagrant (version 1.8.6) <- the vagrantfile has been updated to workaround an issue with private networking on other versions
 virtualbox (others to follow - vcenter, kvm etc)
 local ansible + ansible-vault (env used to build this lab is mac based)
 internet connectivity to pull down splunk 6.5.1 .rpm
